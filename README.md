@@ -18,21 +18,6 @@ The detection of software vulnerabilities is an important security research prob
 * Train and Test Deep learning model on the dataset provided
 * Git downloadable python code for this
 
-### 
-* •	To run program, use this command: python vuldeepecker.py [gadget_file], where gadget_file is one of the text files containing a gadget set
-*	Program has 3 parts:
-*	Performing gadget "cleaning"
-*	Remove comments, string/character literals
-*	Replacing all user-defined variables and functions with VAR# and FUN#, respectively
-*	The # is an integer identifying the user-defined variable/function within the gadget
-*	Note: this identifier only applies within the scope of the gadget
-*	Vectorize gadget
-*	Gadgets are parsed, tokenized, and transformed to vectors of embeddings
-*	Vectors are normalized to a constant length through either truncation or padding
-*	Train and test neural model
-*	Gadget vectors are used as input to train the neural model
-*	Data is split into training set and testing set
-*	Neural model is trained, tested, and accuracy is reported
 #### Code files
 ##### Interface_blstm.ipynb
 *		Interface to project, uses functionality from other code files
